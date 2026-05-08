@@ -54,8 +54,8 @@ class VoiceManager:
             except ImportError as e:
                 print_error(
                     f"openWakeWord non installé.\n"
-                    f"  → Lance : pip install openwakeword\n"
-                    f"  → Puis redémarre Boxy et active 'wake word' dans Paramètres > Voix."
+                    f"  → Relance l'installateur Boxy pour installer les dependances.\n"
+                    f"  → Puis redémarre Boxy."
                 )
                 print_system("Basculement automatique en push-to-talk.")
                 self._mode = "push_to_talk"

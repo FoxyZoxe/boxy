@@ -6,7 +6,7 @@ voice/wake_word.py — Détection du wake word avec openWakeWord.
 Les modèles ONNX doivent être téléchargés une fois depuis GitHub
 (~5 Mo chacun). Le téléchargement est automatique au premier lancement.
 
-Installation : pip install openwakeword
+Installation : automatique via requirements.txt
 
 Mots-clés disponibles :
     hey_jarvis   → dis "hey jarvis"
@@ -53,7 +53,7 @@ class WakeWordDetector:
         except ImportError:
             raise ImportError(
                 "openWakeWord n'est pas installé.\n"
-                "Lance : pip install openwakeword"
+                "Relance l'installateur Boxy pour installer les dependances."
             )
 
         if self._model_name not in self.AVAILABLE_MODELS:

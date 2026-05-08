@@ -459,7 +459,7 @@ class SettingsDialog(QDialog):
         form.addRow(_sep())
         form.addRow(_label("Whisper 'tiny'/'base' = rapide.  'small'+ = plus précis.", dim=True))
         form.addRow(_label("Wake word : dis le mot-clé choisi (ex: 'hey jarvis') pour activer Boxy.", dim=True))
-        form.addRow(_label("⚠  Wake word nécessite :  pip install openwakeword  (à faire une seule fois).", dim=True))
+        form.addRow(_label("Wake word installe automatiquement avec Boxy.", dim=True))
         return w
 
     # ── Onglet Interface ──────────────────────────────────────────────

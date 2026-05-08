@@ -33,4 +33,4 @@ comtypes>=1.4.0
 
 # === OPTIONNEL - Wake word ===
 # Decommenter si vous voulez le wake word "Hey Boxy"
-# openwakeword>=0.6.0
+openwakeword>=0.6.0
