@@ -1,0 +1,41 @@
+# Secrets — ne jamais publier
+.env
+
+# Environnement virtuel Python
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+.Python
+
+# Données utilisateur (conversations, mémoire, images)
+data/memory.json
+data/conversations/
+data/images/
+
+# Logs
+*.log
+logs/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Distribution / build
+dist/
+build/
+*.egg-info/

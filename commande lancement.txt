@@ -1,0 +1,5 @@
+cd C:\Users\Foxyous\Desktop\projects\jarvis
+
+.venv\Scripts\Activate.ps1
+
+python main.py

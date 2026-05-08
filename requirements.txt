@@ -1,0 +1,30 @@
+# IA et HTTP
+ollama==0.3.3
+openai==1.51.0
+httpx==0.27.2
+
+# Terminal stylé
+rich==13.9.4
+
+# Variables d'environnement
+python-dotenv==1.0.1
+
+# Utilitaires
+colorama==0.4.6
+
+# === PHASE 2 — VOIX ===
+edge-tts==6.1.12
+pygame==2.6.1
+sounddevice==0.5.1
+soundfile==0.12.1
+faster-whisper==1.1.0
+numpy==1.26.4
+openwakeword==0.6.0
+pyperclip==1.9.0
+keyboard==0.13.5
+
+# === PHASE 3 — CONTRÔLE PC ===
+pyautogui==0.9.54
+psutil==6.1.0
+pycaw==20230407
+comtypes==1.4.4
